@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    
+  }
+  header {
+    background: #0F3047;
+    padding: 20px;
+    color: #fff;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+  }
+  body{
+    background-color: #E9E2BC;
+  }
+  .container{
+    
+    height: 84vh;
+    background-color: #F4C05F;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+  }
+  .img_box{
+    width: 60vh;
+    height: 82vh;
+    margin: 10px;
+    border-radius: 10px;
+    background-image: url("../img/Resume.webp");
+    background-size: contain;
+    
+  }
+  .text_box{
+    background-color: #E88431;
+    width: 150vh;
+    height: 82vh;
+    margin: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  input{
+    width: 200px;
+    height: 20px;
+  }
+  .introduce , .Resolution{
+    width: 400px;
+    height: 100px;
+  }
+  .save{
+    margin-left: 100px;
+    padding: 10px;
+    background-color: #9AC9E3;
+    border-radius: 10px;
+  }
+  

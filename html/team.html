@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>팀 구하기</title>
+  <link rel="stylesheet" href="../css/team.css">
+  <style>
+    .team {
+ display: none;
+    }
+  </style>
+  <script>
+    function showTeam() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const teamClass = urlParams.get('team');
+      const teamElement = document.querySelector(`.${teamClass}`);
+      if (teamElement) {
+        teamElement.style.display = 'block';
+      }
+    }
+  </script>
+</head>
+<body onload="showTeam()">
+  <header>
+    <h1>팀 구하기</h1>
+  </header>
+  <div class="team team1">Team 1 Members...</div>  
+  <div class="team team2">Team 2 Members...</div>
+  <div class="team team3">Team 3 Members...</div>
+  <div class="team team4">Team 4 Members...</div>
+  <div class="team team5">Team 5 Members...</div>
+  <div class="team team6">Team 6 Members...</div>
+  <div class="team team7">Team 7 Members...</div>
+  <div class="team team8">Team 8 Members...</div>
+  <div class="team team9">Team 9 Members...</div>
+  <a href="affter_main.html">뒤로 가기</a>
+</body>
+</html>
